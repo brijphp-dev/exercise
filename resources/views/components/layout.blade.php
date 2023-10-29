@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/sass/app.scss', 'resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <header>
@@ -41,5 +41,6 @@
             &copy; <a href="https://www.lsi.co.uk" target="_blank">LSi Ltd</a> 2023
         </div>
     </footer>
+    <script src="/js/app.js"></script>
 </body>
 </html>
